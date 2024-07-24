@@ -1,0 +1,71 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcworkspace
+
+# macOS
+*.DS_Store
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.lock
+
+# Archives
+*.xcarchive
+
+# Other
+*.moved-aside
+*.xcuserdatad
+*.xcscmblueprint
+*.orig
+
+# Xcode specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# C
+*.o
+*.obj
+*.so
+*.exe
+*.out
+
+# CLion
+.idea/
+cmake-build-debug/
+cmake-build-release/
+CMakeLists.txt.user
+
+# Additional build products
+*.gcda
+*.gcno
+*.gcov
+*.clang
+
+# Logs
+*.log
+
+# General backup files
+*~
+*.swp
+*.swo
