@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		533D270E2C5C5D1600E5DE82 /* ComvertidorACelsius.c in Sources */ = {isa = PBXBuildFile; fileRef = 533D270D2C5C5D1600E5DE82 /* ComvertidorACelsius.c */; };
+		533EE04C2C7957C600EFE884 /* ComvertidorAFahrenheit.c in Sources */ = {isa = PBXBuildFile; fileRef = 533EE04B2C7957C600EFE884 /* ComvertidorAFahrenheit.c */; };
 		5366848F2C5078D100B965EB /* HolaMundo.c in Sources */ = {isa = PBXBuildFile; fileRef = 5366848E2C5078D100B965EB /* HolaMundo.c */; };
 /* End PBXBuildFile section */
 
@@ -30,12 +31,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		533EE0412C7956F800EFE884 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		533B3D272C50772400438DF6 /* HolaMundo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HolaMundo; sourceTree = BUILT_PRODUCTS_DIR; };
 		533D27062C5C5CE200E5DE82 /* ComvertidorACelsius */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComvertidorACelsius; sourceTree = BUILT_PRODUCTS_DIR; };
 		533D270D2C5C5D1600E5DE82 /* ComvertidorACelsius.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ComvertidorACelsius.c; sourceTree = "<group>"; };
+		533EE0432C7956F800EFE884 /* ComvertidorAFahrenheit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComvertidorAFahrenheit; sourceTree = BUILT_PRODUCTS_DIR; };
+		533EE04B2C7957C600EFE884 /* ComvertidorAFahrenheit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ComvertidorAFahrenheit.c; sourceTree = "<group>"; };
 		5366848E2C5078D100B965EB /* HolaMundo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HolaMundo.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		533EE0402C7956F800EFE884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +81,7 @@
 			children = (
 				536684882C5077F100B965EB /* HolaMundo */,
 				533D27072C5C5CE200E5DE82 /* ComvertidorACelsius */,
+				533EE0442C7956F800EFE884 /* ComvertidorAFahrenheit */,
 				533B3D282C50772400438DF6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +91,7 @@
 			children = (
 				533B3D272C50772400438DF6 /* HolaMundo */,
 				533D27062C5C5CE200E5DE82 /* ComvertidorACelsius */,
+				533EE0432C7956F800EFE884 /* ComvertidorAFahrenheit */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +102,14 @@
 				533D270D2C5C5D1600E5DE82 /* ComvertidorACelsius.c */,
 			);
 			path = ComvertidorACelsius;
+			sourceTree = "<group>";
+		};
+		533EE0442C7956F800EFE884 /* ComvertidorAFahrenheit */ = {
+			isa = PBXGroup;
+			children = (
+				533EE04B2C7957C600EFE884 /* ComvertidorAFahrenheit.c */,
+			);
+			path = ComvertidorAFahrenheit;
 			sourceTree = "<group>";
 		};
 		536684882C5077F100B965EB /* HolaMundo */ = {
@@ -128,6 +157,23 @@
 			productReference = 533D27062C5C5CE200E5DE82 /* ComvertidorACelsius */;
 			productType = "com.apple.product-type.tool";
 		};
+		533EE0422C7956F800EFE884 /* ComvertidorAFahrenheit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533EE0492C7956F800EFE884 /* Build configuration list for PBXNativeTarget "ComvertidorAFahrenheit" */;
+			buildPhases = (
+				533EE03F2C7956F800EFE884 /* Sources */,
+				533EE0402C7956F800EFE884 /* Frameworks */,
+				533EE0412C7956F800EFE884 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComvertidorAFahrenheit;
+			productName = ComvertidorAFahrenheit;
+			productReference = 533EE0432C7956F800EFE884 /* ComvertidorAFahrenheit */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -141,6 +187,9 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					533D27052C5C5CE200E5DE82 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					533EE0422C7956F800EFE884 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -160,6 +209,7 @@
 			targets = (
 				533B3D262C50772400438DF6 /* HolaMundo */,
 				533D27052C5C5CE200E5DE82 /* ComvertidorACelsius */,
+				533EE0422C7956F800EFE884 /* ComvertidorAFahrenheit */,
 			);
 		};
 /* End PBXProject section */
@@ -178,6 +228,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				533D270E2C5C5D1600E5DE82 /* ComvertidorACelsius.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533EE03F2C7956F800EFE884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533EE04C2C7957C600EFE884 /* ComvertidorAFahrenheit.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +397,26 @@
 			};
 			name = Release;
 		};
+		533EE0472C7956F800EFE884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MRQM68UXB3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		533EE0482C7956F800EFE884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MRQM68UXB3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -365,6 +443,15 @@
 			buildConfigurations = (
 				533D270A2C5C5CE200E5DE82 /* Debug */,
 				533D270B2C5C5CE200E5DE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533EE0492C7956F800EFE884 /* Build configuration list for PBXNativeTarget "ComvertidorAFahrenheit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533EE0472C7956F800EFE884 /* Debug */,
+				533EE0482C7956F800EFE884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
